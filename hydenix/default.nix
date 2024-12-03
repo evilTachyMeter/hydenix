@@ -56,7 +56,6 @@ in
 
     #wayland.windowManager.hyprland.systemd.variables = [ "--all" ];
     wayland.windowManager.hyprland.systemd.enable = false;
-    programs.hyprland.withUWSM  = true;
 
     dconf = {
       enable = true;
