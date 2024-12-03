@@ -5,7 +5,6 @@
     (import ./git.nix { inherit pkgs userConfig; })
     ./zsh.nix
     (import ./vscode.nix { inherit pkgs userConfig; })
-    ./uwsm.nix
   ];
 
   programs = {
