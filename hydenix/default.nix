@@ -54,7 +54,8 @@ in
       xdgOpenUsePortal = true;
     };
 
-    wayland.windowManager.hyprland.systemd.variables = [ "--all" ];
+    #wayland.windowManager.hyprland.systemd.variables = [ "--all" ];
+    wayland.windowManager.hyprland.systemd.enable = false;
 
     dconf = {
       enable = true;
