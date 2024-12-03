@@ -6,4 +6,4 @@
   programs.uwsm = {
     enable = true;
   };
-};
+}
